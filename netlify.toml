@@ -8,6 +8,3 @@
 
 [build]
   command = "npm ci"
-
-[plugins]
-  package = "@netlify/plugin-cache-core"
