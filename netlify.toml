@@ -7,8 +7,7 @@
     status = 200
 
 [build]
-  command   = "npm run build"
-  publish   = "out"         # or ".next" if you're doing a static export via `next export`
+  command = "npm ci"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[plugins]
+  package = "@netlify/plugin-cache-core"
